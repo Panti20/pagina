@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Tab Home</title>
+        <meta name="description" content="New tab page">
+
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:200,300,400&subset=latin' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="main.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="main.js"></script>
+    </head>
+    <body>
+	
+		<div class="parent">
+			<div class="container child">
+				
+				<div id="searchForm">
+					<form action="" method="post">
+						<input type="text" name="s" value="" placeholder="Search" />
+						<select name="engines">
+							<option value="google">Google</option>
+							<option value="youtube">YouTube</option>
+							<option value="tpb">TPB</option>
+							<option value="kickass">Kickass</option>
+							<option value="duck">Duck Duck Go</option>
+							<option value="wa">Wolfram Alpha</option>
+							<option value="wiki">Wikipedia</option>
+							<option value="imdb">IMDB</option>
+						</select>
+					</form>
+				</div>
+				
+				<section id="linkArea" class="clearfix">
+					<div class="half">
+
+						<h3>Standard</h3>
+						<ul class="links">
+							<li><a id="facebook" href="https://www.facebook.com/">Facebook</a></li>
+							<li><a id="gmail" href="http://www.gmail.com">Gmail</a></li>
+							<li><a id="youtube" href="https://www.youtube.com/feed/subscriptions">Youtube</a></li>
+							<li><a id="hotmail" href="http://www.hotmail.com">Hotmail</a></li>
+							<li><a id="tumblr" href="https://www.twitter.com">Twitter</a></li>
+							<li><a id="netflix" href="https://www.netflix.com">Netflix</a></li>
+
+						</ul>
+						
+						<h3 class="alt">4 Chan</h3>
+						<ul class="links">
+							<li><a id="Pol" href="http://www.4chan.org/pol">/pol/</a></li>
+							<li><a id="Wg" href="http://www.4chan.org/wg">/wg/</a></li>
+							<li><a id="g" href="https://4chan.org/g">/g/</a></li>
+							<li><a id="v" href="http://www.4chan.org/v">/v/</a></li>
+							<li><a id="v" href="http://www.4chan.org/fa">/fa/</a></li>
+							<li><a id="v" href="http://www.4chan.org/adv">/adv/</a></li>
+						</ul>
+
+						<h3>Games</h3>
+						<ul class="links">
+							<li><a id="coolrom" href="http://www.coolrom.com">Coolrom</a></li>
+							<li><a id="Thepiratebay" href="https://thepiratebay.se">The pirate bay</a></li>
+							<li><a id="skidrow" href="https://www.skidrowreloaded.com/">Skidrow</a></li>
+						</ul>
+					</div>
+					
+					<div class="half">
+
+						<h3 class="alt">Leddit</h3>
+						<ul class="links">
+							<li><a id="reddit" href="https://www.reddit.com/r/lifeisstrange">/LifeIsStrange</a></li>
+							<li><a id="reddit" href="https://www.reddit.com/r/undertale">/Undertale</a></li>
+							<li><a id="reddit" href="https://www.reddit.com/r/Bindingofisaac">/TheBindingOfIsaac</a></li>
+							<li><a id="reddit" href="https://www.reddit.com/r/pcmasterrace">/PcMasterRace</a></li>
+							<li><a id="reddit" href="https://www.reddit.com/r/piracy">/Piracy</a></li>
+
+						</ul>
+						
+						<h3>Bueno Bonito y Barato</h3>
+						<ul class="links">
+							<li><a id="g2a" href="https://www.g2a.com">G2A</a></li>
+							<li><a id="kinguin" href="https://www.kinguin.net">Kinguin</a></li>
+							<li><a id="amazon" href="https://www.amazon.com">Amazon</a></li>
+							<li><a id="Amazon" href="https://www.ebay.com">Ebay</a></li>
+
+						</ul>
+
+						<h3 class="alt">Le Muzak </h3>
+						<ul class="links">
+							<li><a id="tabs" href="https://www.ultimate-guitar.com/">Ultimate Guitar</a></li>
+							<li><a id="tabs" href="https://www.guitarbackingtrack.com">Guitar Backing Tracks</a></li>
+						</ul>
+						
+						<!-- Show or hide by pressing 'h' -->
+						<div class="hideable hide">
+							<h3 class="alt">Hidden Links</h3>
+							<ul class="links">
+								<li><a href="#">Link 1</a></li>
+								<li><a href="#">Link 2</a></li>
+							</ul>
+						</div>
+					</div>
+
+				</section>
+				
+			</div>
+		</div>
+		
+		<div id="timeArea">
+			<p class="time"><span class="timeInner"></span> <span class="date"></span></p>
+		</div>
+	
+        
+    </body>
+</html>
